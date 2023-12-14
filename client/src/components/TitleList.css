@@ -1,0 +1,35 @@
+.title-list {
+    background-color: #f8f9fa;
+    color: #343a40;
+  }
+  
+  .title-header {
+    font-size: 2em;
+    font-weight: bold;
+    color: #6c757d;
+  }
+  
+  .error-message {
+    color: #dc3545;
+    font-weight: bold;
+  }
+  
+  .title-group {
+    margin-top: 2em;
+    border-radius: 0.25em;
+  }
+  
+  .title-item {
+    margin-bottom: 1em;
+    border-radius: 0.25em;
+  }
+  
+  .title-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .title-text {
+    font-size: 1.5em;
+  }
+  
