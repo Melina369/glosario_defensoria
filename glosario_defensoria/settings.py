@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure---8bjfptk-n_l@5r2r14f&(c6tpxc19yz%u3uf*lt!x678$fve
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['glosariodefensoria-production.up.railway.app']
 
 
 # Application definition
@@ -142,5 +142,4 @@ REST_FRAMEWORK = {
 CORS_ORIGIN_ALLOW_ALL = True
 
 
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
