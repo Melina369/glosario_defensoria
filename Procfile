@@ -1,1 +1,1 @@
-web: gunicorn 'glosario_defensoria.wsgi'
+web: python manage.py collectstatic && gunicorn 'glosario_defensoria.wsgi'
