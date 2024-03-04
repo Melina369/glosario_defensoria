@@ -4,8 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "C:\\Python312\\python.exe manage.py collectstatic --noinput && C:\\Python312\\python.exe manage.py runserver",
-  
+    "start": "C:/Python312/python.exe manage.py collectstatic --noinput && C:/Python312/python.exe manage.py runserver",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
