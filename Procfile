@@ -1,2 +1,1 @@
-web: gunicorn glosario_defensoria.wsgi
-release: python manage.py collectstatic --noinput
+web: python manage.py collectstatics && gunicorn 'glosario_defensoria.wsgi'
